@@ -1,0 +1,163 @@
+body {
+    background-color: #1d1d1d;
+    color: #918f8f;
+    font-family: "Outfit", sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #c2c0c0;
+    padding: 10px;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #c2c0c0;
+    padding: 10px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    padding: 10px;
+}
+
+/** Header Styles **/
+header {
+    background-color: #161616;
+    padding: 9.5px 1rem;
+    text-align: center;
+    border-radius: 0px;
+}
+
+header span {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c2c0c0
+}
+
+header p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+/** Navigation Styles **/
+
+nav {
+    background-color: #a23333;
+    border-radius: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 2rem;
+    color: #c2c0c0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #c2c0c0;
+    background-color: #812828;
+    border-radius: 13px;
+    padding: 1rem 2rem;
+}
+
+nav ul li {
+    padding: 24px 0px;
+    background-color: #a23333;
+    font-size: 1rem;
+    margin: 0 0.3rem;
+}
+
+nav li.active a {
+    color: #c2c0c0;
+    background-color: #812828;
+    border-radius: 13px;
+    padding: 1rem 2rem;
+}
+
+/* Main Section Styles */
+
+main ul {
+    list-style-type: circle;
+    padding-left: 2rem;
+    margin: 1rem 0;
+}
+
+dl {
+    margin: 2rem 10px;
+}
+
+dt {
+    font-weight: 700;
+    font-size: 20px;
+    color: #c2c0c0
+}
+
+.plans h3 {
+    color: #c2c0c0
+}
+
+dd {
+    margin-bottom: 1rem;
+}
+
+.plans {
+    padding: 1.25rem;
+    margin: 15px 10px;
+    border: 3px solid #a23333;
+    border-radius: 15px;
+    background-color: #161616;
+}
+
+main a {
+    color: #a23333;
+    text-decoration: none;
+}
+
+main>a[href^="tel:"] {
+    margin-left: 10px;
+}
+
+main a:hover {
+    color: #c2c0c0;
+    background-color: #a23333;
+    border-radius: 5px;
+    padding: 0.1rem;
+}
+
+main ul {
+    line-height: 1.5rem;
+}
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #161616;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+address {
+    margin: 0 10px;
+}
